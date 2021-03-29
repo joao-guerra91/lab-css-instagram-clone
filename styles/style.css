@@ -7,4 +7,110 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: white;
+}
+
+.header {
+  height: 230px;
+  width: 100%;
+  background-color: #1c5380;
+}
+
+.btn-header{
+  background-color: #1c5380; 
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 80px;
+  left: 800px;
+  font-size: 14px;
+}
+
+.btn-header:hover {
+  background-color: #06365f;
+  color: white;
+}
+
+.btn-header img{
+  height: 15px;
+  width: 15px;
+}
+
+.instagram-img {
+  height: 50px;
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 750px;
+}
+.container{
+  display: flex;
+}
+.box{
+    background-image: url(../images/frame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    color: black;
+    text-align: left;
+    /* border-style: solid; */
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 50px;
+   
+}
+ 
+.iphone-btn {
+  background-image: url(../images/badge-iphone.png);
+  background-size: cover;
+  width: 150px;
+  height: 40px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.android-btn{
+  margin-left: 20px;
+  background-image: url(../images/badge-android.png);
+  background-size: cover;
+  width: 150px;
+  height: 40px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.phones-img {
+  width: 300px;
+  height: 500px;
+  margin-left: 400px;
+  position: relative;
+  bottom: 120px;
+}
+
+.footer{
+height: 100px;
+width: 100%;
+text-align: center;
+margin-top: 10px;
+font-size: 10px;
+
+}
+
+.footer a {
+  margin-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1c5380;
 }
